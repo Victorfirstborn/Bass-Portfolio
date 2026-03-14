@@ -5,6 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Victor's Bass Guitar Portfolio</title>
   <style>
+.hero{
+  height:300px;
+  background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  url("https://images.unsplash.com/photo-1511379938547-c1f69419868d");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+}
+
+.hero h1{
+  font-size:42px;
+  margin-bottom:10px;
+}
+
+.hero p{
+  font-size:18px;
+  margin-bottom:15px;
+}
+
+.hero button{
+  padding:12px 25px;
+  border:none;
+  border-radius:5px;
+  background:#3498db;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.hero button:hover{
+  background:#1c5980;
+}
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -124,11 +160,17 @@
 <body>
 
 <header>
-  <h1>Victor's Bass Guitar Portfolio</h1>
-  <p>Watch my covers, listen to my tracks, and get bass tips!</p>
-  <button onclick="openPlaylist()">My Bass Playlist</button>
+  <section class="hero">
+  <div class="hero-content">
+    <h1>Victor Firstborn</h1>
+    <p>Bass Guitarist | Street Performer | Bass Cover Creator</p>
+    <button onclick="openPlaylist()">Watch My Bass Playlist</button>
+  </div>
+</section>
 </header>
-
+<button onclick="window.location.href='mailto:champion.vicky1991@gmail.com'">
+Book Me for Events
+</button>
 <nav>
   <button onclick="scrollToSection('covers')">Covers</button>
   <button onclick="scrollToSection('tips')">Tips</button>
