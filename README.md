@@ -1,6 +1,5 @@
 # Bass-Portfolio
 
-My Bass Guitar Videos and Audio
 This is a simple web application that allows users to book a bass guitarist for events such as concerts, church programs, weddings, and studio sessions.
 
 Features
