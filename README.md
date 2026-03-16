@@ -16,7 +16,7 @@ JavaScript
 
 Live Demo:
 
-https://victorfirstborn.github.io/Bass-Portfolio-/
+https://victorfirstborn.github.io/Bass-Portfolio/
 
 Author
 Victor Ekpenyong Akpan
